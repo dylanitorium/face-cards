@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<div
+  className={undefined}
+  onClick={[Function]}
+>
+  <img
+    className={undefined}
+    src="https://api.adorable.io/avatars/150/Sincere@april.biz.png"
+  />
+  <div
+    className={undefined}
+  >
+    <div
+      className={undefined}
+    >
+      "
+      Multi-layered client-server neural-net
+      "
+    </div>
+    <div
+      className={undefined}
+    >
+      <div
+        className={undefined}
+      >
+        Leanne Graham
+      </div>
+      <div
+        className={undefined}
+      >
+        Sincere@april.biz
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Renders correctly when is current user 1`] = `
+<div
+  className="undefined undefined"
+  onClick={[Function]}
+>
+  <img
+    className={undefined}
+    src="https://api.adorable.io/avatars/150/Sincere@april.biz.png"
+  />
+  <div
+    className={undefined}
+  >
+    <div
+      className={undefined}
+    >
+      "
+      Multi-layered client-server neural-net
+      "
+    </div>
+    <div
+      className={undefined}
+    >
+      <div
+        className={undefined}
+      >
+        Leanne Graham
+      </div>
+      <div
+        className={undefined}
+      >
+        Sincere@april.biz
+      </div>
+    </div>
+  </div>
+</div>
+`;

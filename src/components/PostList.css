@@ -1,0 +1,28 @@
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  box-sizing: border-box;
+  border: 2px solid #EEEEEE;
+  padding: 20px;
+  color:  #294762;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  box-shadow: 2px 2px 1px 0px rgba(238,238,238,0.6);
+  border-radius: 2px;
+  width: 1090px;
+}
+
+.item {
+  margin: 20px 0 40px;
+}
+
+.item:last-child {
+  margin-bottom: 60px
+}
+
+
+.placeholder {
+  text-align: center;
+}

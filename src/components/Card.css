@@ -1,3 +1,56 @@
-.Card {
-  background-color: red;
+.card {
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 2px solid #EEEEEE;
+  padding: 50px 20px;
+  color: #294762;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  box-shadow: 2px 2px 1px 0px rgba(238,238,238,0.6);
+  border-radius: 2px;
+}
+
+.card::before,
+.card::after {
+  content: '';
+  display: table;
+}
+
+.card::after {
+  clear: both;
+}
+
+.active {
+  border-color: #D8D8D8;
+}
+
+.avatar {
+  float: left;
+  width: 104px;
+  height: 104px;
+  border-radius: 2px;
+}
+
+.content {
+  box-sizing: border-box;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 0 0 20px;
+  width: 186px;
+  height: 104px;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.details {
+  margin-bottom: 5px;
+}
+
+.name {
+  font-weight: 600;
 }

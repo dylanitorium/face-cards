@@ -6,6 +6,7 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: {
+    polyfill: 'whatwg-fetch',
     main: './src/index.js',
   },
   output: {

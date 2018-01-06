@@ -1,17 +1,25 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 import Card from './Card';
 
-function CardList({ users }) {
-  return (
-    <div>
-      {users.map(({ name, email, company, id }) => {
-        return (
-          <Card catchPhrase={company.catchPhrase} email={email} name={name} />
-        );
-      })}
-    </div>
-  );
-}
+import list from './CardList.css';
+
+const CardList = props => (
+  <ul className={list.list}>
+    {
+      props.users.length ? (
+        props.users.map(user =>
+          <li key={user.id} className={list.item}>
+            <Card {...props} user={user}  />
+          </li>
+        )
+      ) : (
+        null
+      )
+    }
+  </ul>
+);
+
+CardList.propTypes = {};
 
 export default CardList;
